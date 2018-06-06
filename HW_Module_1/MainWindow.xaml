@@ -38,7 +38,7 @@
 			   Grid.Row="2"
 				Grid.Column="0"
 			   ></Label>
-		<Button Content="Get interesting"
+		<Button Content="Get information"
 				Grid.Row="2"
 				Grid.Column="1"
 				Click="BtnGet_Click"></Button>

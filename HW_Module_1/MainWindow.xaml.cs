@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HW_Module_1.Modules;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,14 +26,16 @@ namespace HW_Module_1
             InitializeComponent();
         }
 
+        Helper helper = new Helper();
+
         private void BtnGet_Click(object sender, RoutedEventArgs e)
         {
-
+           
         }
 
         private void BtnCreate_Click(object sender, RoutedEventArgs e)
         {
-
+            helper.CreateXml();
         }
     }
 }
