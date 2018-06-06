@@ -19,22 +19,27 @@
 		</Grid.ColumnDefinitions>
 
 		<Label x:Name="Title"
+			   Content=""
 			   Grid.Row="0"
 				Grid.Column="0"
 			   ></Label>
 		<Label x:Name="Description"
+			    Content=""
 			   Grid.Row="0"
 				Grid.Column="1"
 			   ></Label>
 		<Label x:Name="ManagingEditor"
+			    Content=""
 			   Grid.Row="1"
 				Grid.Column="0"
 			   ></Label>
 		<Label x:Name="Generator"
+			    Content=""
 			   Grid.Row="1"
 				Grid.Column="1"
 			   ></Label>
 		<Label x:Name="Pubdate"
+			    Content=""
 			   Grid.Row="2"
 				Grid.Column="0"
 			   ></Label>
