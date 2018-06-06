@@ -25,7 +25,7 @@ namespace HW_Module_1.Modules
                 foreach (XmlNode ch in item.ChildNodes)
                 {
                    // Console.WriteLine("->" + ch.Name);
-                    if (ch.Name == "item")
+                    if (ch.Name == "channel")
                     {
                         Item hn = new Item();
 
