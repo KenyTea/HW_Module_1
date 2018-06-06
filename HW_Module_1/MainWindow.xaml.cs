@@ -27,10 +27,12 @@ namespace HW_Module_1
         }
 
         Helper helper = new Helper();
+        
+
 
         private void BtnGet_Click(object sender, RoutedEventArgs e)
         {
-           
+            helper.CreateXml();
         }
 
         private void BtnCreate_Click(object sender, RoutedEventArgs e)
